@@ -1,0 +1,52 @@
+.main{
+height: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 2vmax;
+box-sizing: border-box;
+}
+.mainForm{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.44) 0px 3px 8px;
+        height: auto;
+        width: 80%;
+        border-radius: 25px;
+        box-sizing: border-box;
+        padding: 2vmax;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+.mainForm>input {
+    box-sizing: border-box;
+    padding: 1vmax 2vmax;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+    font: 100 1.2rem "Roboto";
+    margin: 1.5vmax;
+}
+.mainForm>select{
+box-sizing: border-box;
+    padding: 1vmax 2vmax;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+    font: 100 1.2rem "Roboto";
+    margin: 1.5vmax;
+}
+.mainForm>button {
+    width: 80% !important;
+    border-radius: 25px !important;
+    background-color: rgb(193, 226, 240) !important;
+    transition: all 0.5s !important;
+}
+
+.button:hover {
+    border: none !important;
+    background-color: white !important;
+}

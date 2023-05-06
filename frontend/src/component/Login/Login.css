@@ -1,0 +1,79 @@
+.login {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2vmax;
+    box-sizing: border-box;
+}
+
+.loginForm {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.44) 0px 3px 8px;
+    height: auto;
+    width: 50%;
+    border-radius: 25px;
+    box-sizing: border-box;
+    padding: 2vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    font: 400 1.8rem "Roboto" !important;
+    color: rgba(150, 143, 143, 0.973);
+}
+
+.loginForm>input {
+    box-sizing: border-box;
+    padding: 1vmax 2vmax;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+    font: 100 1.2rem "Roboto";
+    margin: 1.5vmax;
+}
+
+.loginForm>a {
+    align-self: flex-end;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.642);
+    margin: 2vmax;
+}
+
+.button {
+    width: 80% !important;
+    border-radius: 25px !important;
+    background-color: rgb(193, 226, 240) !important;
+    transition: all 0.5s !important;
+}
+
+.button:hover {
+    border: none !important;
+    background-color: white !important;
+}
+
+@media screen and (max-width:700px) {
+    .heading {
+        font-size: small;
+    }
+
+    .loginForm {
+        width: 95%;
+    }
+
+    .loginForm>input {
+        padding: 2vw 5vw;
+        width: 100%;
+        margin: 2vmax;
+        font: 100 1rem "Roboto";
+        margin: 4vw;
+    }
+
+    .loginForm>a {
+        align-self: center;
+    }
+}

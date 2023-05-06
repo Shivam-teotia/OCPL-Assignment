@@ -1,0 +1,10 @@
+.header{
+    background-color: rgb(245, 234, 214);
+    height: 4vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header>h2{
+    color: grey;
+}

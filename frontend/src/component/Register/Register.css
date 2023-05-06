@@ -1,0 +1,56 @@
+.register {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2vmax;
+    box-sizing: border-box;
+}
+
+.registerForm {
+    background-color: white;
+    width: 60%;
+    border-radius: 30px;
+    box-sizing: border-box;
+    padding: 2vmax;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.44) 0px 3px 8px;
+    align-items: center;
+}
+
+.registerInputs {
+    box-sizing: border-box;
+    padding: 1vmax 2vmax;
+    width: 80%;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    margin: 2vmax;
+    font: 100 1.2rem "Roboto", sans-serif;
+    outline: none;
+}
+.registerForm>a {
+    align-self: flex-end;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.442);
+    margin: 2vmax;
+}
+
+@media screen and (max-width:700px) {
+    .registerForm {
+        width: 95%;
+    }
+
+    .registerForm>input {
+        padding: 2vw 4vw;
+        margin: 2vmax;
+        font: 100 1.1rem "Roboto", sans-serif;
+        margin: 4vw;
+        width: 100%;
+    }
+    .registerForm>a {
+        align-self: center;
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.442);
+    }
+}

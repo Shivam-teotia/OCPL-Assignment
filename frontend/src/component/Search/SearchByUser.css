@@ -1,0 +1,25 @@
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.upper>input{
+    box-sizing: border-box;
+        padding: 1vmax 2vmax;
+        width: 100%;
+        border: 1px solid #ccc;
+        border-radius: 20px;
+        outline: none;
+        font: 100 1.2rem "Roboto";
+        margin: 1.5vmax;
+}
+.lower{
+    width: 80%;
+    padding: 1.2vmax 1.2vmax;
+}
+.lower>div{
+    padding: 1vmax 1vmax;
+        margin-bottom: 2vmax;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.44) 0px 3px 8px;
+}
